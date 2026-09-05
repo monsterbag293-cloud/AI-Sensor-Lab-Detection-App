@@ -20,7 +20,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors({
-  origin: 'monsterbag293-cloud.github.io'
+  origin: '*'
 }));
 
 app.use(express.json({ limit: '10mb' }));

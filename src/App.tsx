@@ -1,4 +1,4 @@
-/**
+  /**
  * Artificial Visual Perception Lab - Main Application Component
  *
  * Implements:
@@ -364,7 +364,8 @@ export default function App() {
         };
 
         // Call server-side /api/conscious-cycle
-        const response = await fetch('/api/conscious-cycle', {
+        // 🧠 Swap the local path out for your production Render URL:
+        const response = await fetch('https://onrender.com', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),

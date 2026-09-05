@@ -1,0 +1,8 @@
+{
+  "name": "Artificial Visual Perception Lab",
+  "description": "An embodied AI experiment in an AI-controlled 3D world featuring biologically inspired binaural auditory perception with cochlear ERB filterbanks, UV and IR spectral vision, retinal opponent processing, artificial tactile skin mechanoreceptors, proprioception, fracture physics, and Gemini sensory reasoning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

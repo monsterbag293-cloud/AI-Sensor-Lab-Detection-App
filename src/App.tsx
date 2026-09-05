@@ -363,13 +363,13 @@ export default function App() {
           persistent_internal_artifacts: persistentArtifactsRef.current,
         };
 
-        // Call server-side /api/conscious-cycle
-        // 🧠 Swap the local path out for your production Render URL:
+        // 🧠 Add the '-2' to your URL string:
         const response = await fetch('https://onrender.com', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
         });
+
 
         if (!response.ok) {
           throw new Error(`Server returned status ${response.status}`);

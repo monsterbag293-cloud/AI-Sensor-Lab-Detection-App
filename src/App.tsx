@@ -364,7 +364,7 @@ export default function App() {
         };
 
         // 🧠 Add the '-2' to your URL string:
-        const response = await fetch('https://onrender.com', {
+        const response = await fetch('https://ai-sensor-lab-backend-2.onrender.com', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
